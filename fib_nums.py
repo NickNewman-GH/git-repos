@@ -1,7 +1,7 @@
 # this is test project for git testing
 from functools import lru_cache
 
-@lru_cache(1024)
+@lru_cache(64)
 def fib(n):
 	if n == 0:
 		return 0
